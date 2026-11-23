@@ -1,0 +1,25 @@
+# Credentials and secrets
+.env
+.env.*
+*.pem
+*.key
+id_ed25519*
+id_rsa*
+secrets/
+credentials/
+inventory.ini
+
+# Logs and backups
+*.log
+*.bak
+*.tar.gz
+*.zip
+backups/
+
+# Python
+.venv/
+__pycache__/
+
+# Operating system files
+.DS_Store
+Thumbs.db
